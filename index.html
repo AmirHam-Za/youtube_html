@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link rel="icon" type="images/x-icon" href="imgs/fav-icon.png" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    
+<!--*********************************
+>>> NAVIGATION BAR \/
+******************************* -->
+    <nav class="flex-div">
+
+        <div class="nav-left flex-div">
+            <img src="imgs/menu.png" alt="" class="menu-icon">
+            <a href="index.html">
+                <img src="imgs/logo.png" alt=""  class="logo">
+                <span class="country-flag">BD</span>
+            </a>
+        </div>
+
+
+
+        <div class="nav-middle flex-div">
+
+            <div class="search_box">
+                <input type="text" placeholder="Search">
+                <button class="search_button">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+            <img src="imgs/voice-search.png" alt="microphone" width="20px">
+        </div>
+
+        <div class="nav-right flex-div" >
+            <img src="imgs/upload.png" alt="">
+            <span>
+                <img src="imgs/notification.png" alt="">
+                <small class="notification-letter">9</small>
+            </span>
+
+            <img class="user-icon" src="imgs/bunny-pp.png" alt="">
+        </div>
+    </nav>
+<!--*********************************
+>>> SIDEBAR \/
+******************************* -->
+    <div class="sidebar">
+        <div class="shortcut-link">
+            
+            <a href="#">
+                <div class="sidebar_menu">
+                    <div class="menu_img">
+                        <img src="imgs/home.png" alt="" width="24px">
+                    </div>
+                    <div class="menu_title">
+                        <p>Home</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="sidebar_menu">
+                    <div class="menu_img">
+                        <img src="imgs/youtube-shorts.png" alt="" width="24px">
+                    </div>
+                    <div class="menu_title">
+                        <p>Shorts</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="sidebar_menu">
+                    <div class="menu_img">
+                        <img src="imgs/subscriprion.png" alt="" width="24px">
+                    </div>
+                    <div class="menu_title">
+                        <p>Subscriptins</p>
+                    </div>
+                </div>
+            </a>
+            <br><hr><br>
+            <a href="#">
+                <div class="sidebar_menu">
+                    <div class="menu_img">
+                        <img src="imgs/history.png" alt="" width="24px">
+                    </div>
+                    <div class="menu_title">
+                        <p>library</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="sidebar_menu">
+                    <div class="menu_img">
+                        <img src="imgs/playlist.png" alt="" width="24px">
+                    </div>
+                    <div class="menu_title">
+                        <p>Playlist</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="sidebar_menu">
+                    <div class="menu_img">
+                        <img src="imgs/messages.png" alt="" width="24px">
+                    </div>
+                    <div class="menu_title">
+                        <p>Message</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="sidebar_menu">
+                    <div class="menu_img">
+                        <img src="imgs/show-more.png" alt="" width="24px">
+                    </div>
+                    <div class="menu_title">
+                        <p>Show More</p>
+                    </div>
+                </div>
+            </a>
+            
+        </div>
+        
+        <div class="subscribed-list">
+            <h4>Subscriptions</h4>
+            <a href="#">
+                <div class="sidebar_menu">
+                    <div class="menu_img">
+                        <img src="imgs/prolay1.jpg" alt="" width="24px">
+                    </div>
+                    <div class="menu_title">
+                        <p>Prolay Mukherjee</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="sidebar_menu">
+                    <div class="menu_img">
+                        <img src="imgs/arafat.jpg" alt="" width="24px">
+                    </div>
+                    <div class="menu_title">
+                        <p>Mezba Uddin Arafat</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="sidebar_menu">
+                    <div class="menu_img">
+                        <img src="imgs/alim.jpg" alt="" width="24px">
+                    </div>
+                    <div class="menu_title">
+                        <p>Alim Shikdar</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="sidebar_menu">
+                    <div class="menu_img">
+                        <img src="imgs/hridoy.jpg" alt="" width="24px">
+                    </div>
+                    <div class="menu_title">
+                        <p>Hridoy Mukherjee</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="sidebar_menu">
+                    <div class="menu_img">
+                        <img src="imgs/mashrafi.jpg" alt="" width="24px">
+                    </div>
+                    <div class="menu_title">
+                        <p>Mashrafi Bin Murtaza</p>
+                    </div>
+                </div>
+            </a>
+            
+        </div>
+        <br><hr><br>
+        <div class="subscribed-list explore">
+
+            <a href="#">
+                <div class="sidebar_menu">
+                    <div class="menu_img">
+                        <img src="imgs/settings.png" alt="" width="24px">
+                    </div>
+                    <div class="menu_title">
+                        <p>Playlist</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="sidebar_menu">
+                    <div class="menu_img">
+                        <img src="imgs/flag.png" alt="" width="24px">
+                    </div>
+                    <div class="menu_title">
+                        <p>Playlist</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="sidebar_menu">
+                    <div class="menu_img">
+                        <img src="imgs/help.png" alt="" width="24px">
+                    </div>
+                    <div class="menu_title">
+                        <p>Help</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="sidebar_menu">
+                    <div class="menu_img">
+                        <img src="imgs/feedback.png" alt="" width="24px">
+                    </div>
+                    <div class="menu_title">
+                        <p>Feedback</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <br><hr><br>
+        <div class="copyright-list">
+            <p>
+                AboutPressCopyrightContact usCreatorsAdvertiseDevelopers
+            </p>
+            <br>
+            <p>
+                TermsPrivacyPolicy & SafetyHow YouTube worksTest new features
+
+            </p>
+            <br>
+            <p class="copyright-text">
+                &copy; 2023 Google LLC
+            </p>
+            <br><br>
+        </div>
+    </div>
+
+
+
+
+
+<!--*********************************
+>>> MAIN CONTAINER \/
+******************************* -->
+    <div class="container">
+            <button class="top-button" style="background:#0f0f0f; color:#eee;">All</button>
+            <button class="top-button">Computer Programming</button>
+            <button class="top-button">News</button>
+            <button class="top-button">Live</button>
+            <button class="top-button">Website</button>
+            <button class="top-button">Debates</button>
+            <button class="top-button">Tourism</button>
+            <button class="top-button">Conversation</button>
+        
+
+
+        <div class="list-container">
+            <div class="vid-list">
+                <a href="play-video.html"><img src="imgs/bunny-thumb.jpg" alt="" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="imgs/bunny-pp.png" alt="">
+                    <div class="vid-info">
+                        <a href="">Big Buck Bunny 60fps 4K - Official Blender Foundation Short Film by Amir ||</a>
+                        <p>Hunny-Bunny</p>
+                        <p>2k views &bull; 1 days ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href="play-video.html"><img src="imgs/jahangir-thumb.webp" alt="" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="imgs/jahangir-pp.jpg" alt="">
+                    <div class="vid-info">
+                        <a href="">পেটের চর্বি ও ওজন কমানো সহ রোগ থেকে মুক্তি পেতে কোষ খালি করতে হবে</a>
+                        <p>Dr Jahangir Kabir 
+                            <img class="verified-icon" src="imgs/verified-icon.png" alt=""></p>
+                        <p>20k views &bull; 3 days ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href="play-video.html"><img src="imgs/sumit-saha.webp" alt="" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="imgs/sumit-pp.jpg" alt="">
+                    <div class="vid-info">
+                        <a href="">Things I wish I knew as a Junior Web Developer - Sumit Saha....</a>
+                        <p>Learn with Sumit - LWS - Bangladesh
+                            <img class="verified-icon" src="imgs/verified-icon.png" alt=""></p>
+                        </p>
+                        <p>34k views &bull; 3 months ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href="play-video.html"><img src="imgs/lucy-eng-thumb.webp" alt="" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="imgs/lucy-pp.jpg" alt="">
+                    <div class="vid-info">
+                        <a href="">BRITISH vs AMERICAN ENGLISH - Accent & Vocabulary Comparison!</a>
+                        <p>ENGLISH WITH LUCY
+                            <img class="verified-icon" src="imgs/verified-icon.png" alt=""></p>
+                        </p>
+                        <p>1.3M views &bull; 3 year ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href="play-video.html"><img src="imgs/titanic-thumb.webp" alt="" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="imgs/news-pp.jpg" alt="">
+                    <div class="vid-info">
+                        <a href="">টাইটানের পরিণতির কথা আগেই জানতেন টাইটানিকের পরিচালক</a>
+                        <p>Desh TV News</p>
+                        <p>235k views &bull; 8 hours ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href="play-video.html"><img src="imgs/swiss-thumb.webp" alt="" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="imgs/swiss-pp.jpg" alt="">
+                    <div class="vid-info">
+                        <a href="">সুইজারল্যান্ডের সবচেয়ে ধনী গ্রাম | Luxury Swiss Village | Gstaad</a>
+                        <p>Shehwar & Maria</p>
+                        <p>69k views &bull; 3 weeks ago</p>
+                    </div>
+                </div>
+            </div>
+
+
+<!--*********************************
+>>> CONTENT REPETATIONR-1 \/
+******************************* -->
+
+
+            <div class="vid-list">
+                <a href="play-video.html"><img src="imgs/bunny-thumb.jpg" alt="" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="imgs/bunny-pp.png" alt="">
+                    <div class="vid-info">
+                        <a href="">Big Buck Bunny 60fps 4K - Official Blender Foundation Short Film by Amir ||</a>
+                        <p>Hunny-Bunny</p>
+                        <p>2k views &bull; 1 days ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href="play-video.html"><img src="imgs/jahangir-thumb.webp" alt="" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="imgs/jahangir-pp.jpg" alt="">
+                    <div class="vid-info">
+                        <a href="">পেটের চর্বি ও ওজন কমানো সহ রোগ থেকে মুক্তি পেতে কোষ খালি করতে হবে</a>
+                        <p>Dr Jahangir Kabir 
+                            <img class="verified-icon" src="imgs/verified-icon.png" alt=""></p>
+                        <p>20k views &bull; 3 days ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href="play-video.html"><img src="imgs/sumit-saha.webp" alt="" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="imgs/sumit-pp.jpg" alt="">
+                    <div class="vid-info">
+                        <a href="">Things I wish I knew as a Junior Web Developer - Sumit Saha....</a>
+                        <p>Learn with Sumit - LWS - Bangladesh
+                            <img class="verified-icon" src="imgs/verified-icon.png" alt=""></p>
+                        </p>
+                        <p>34k views &bull; 3 months ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href="play-video.html"><img src="imgs/lucy-eng-thumb.webp" alt="" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="imgs/lucy-pp.jpg" alt="">
+                    <div class="vid-info">
+                        <a href="">BRITISH vs AMERICAN ENGLISH - Accent & Vocabulary Comparison!</a>
+                        <p>ENGLISH WITH LUCY
+                            <img class="verified-icon" src="imgs/verified-icon.png" alt=""></p>
+                        </p>
+                        <p>1.3M views &bull; 3 year ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href="play-video.html"><img src="imgs/titanic-thumb.webp" alt="" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="imgs/news-pp.jpg" alt="">
+                    <div class="vid-info">
+                        <a href="">টাইটানের পরিণতির কথা আগেই জানতেন টাইটানিকের পরিচালক</a>
+                        <p>Desh TV News</p>
+                        <p>235k views &bull; 8 hours ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href="play-video.html"><img src="imgs/swiss-thumb.webp" alt="" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="imgs/swiss-pp.jpg" alt="">
+                    <div class="vid-info">
+                        <a href="">সুইজারল্যান্ডের সবচেয়ে ধনী গ্রাম | Luxury Swiss Village | Gstaad</a>
+                        <p>Shehwar & Maria</p>
+                        <p>69k views &bull; 3 weeks ago</p>
+                    </div>
+                </div>
+            </div>
+<!--*********************************
+>>> CONTENT REPETATIONR-2 \/
+******************************* -->
+
+
+            <div class="vid-list">
+                <a href="play-video.html"><img src="imgs/bunny-thumb.jpg" alt="" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="imgs/bunny-pp.png" alt="">
+                    <div class="vid-info">
+                        <a href="">Big Buck Bunny 60fps 4K - Official Blender Foundation Short Film by Amir ||</a>
+                        <p>Hunny-Bunny</p>
+                        <p>2k views &bull; 1 days ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href="play-video.html"><img src="imgs/jahangir-thumb.webp" alt="" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="imgs/jahangir-pp.jpg" alt="">
+                    <div class="vid-info">
+                        <a href="">পেটের চর্বি ও ওজন কমানো সহ রোগ থেকে মুক্তি পেতে কোষ খালি করতে হবে</a>
+                        <p>Dr Jahangir Kabir 
+                            <img class="verified-icon" src="imgs/verified-icon.png" alt=""></p>
+                        <p>20k views &bull; 3 days ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href="play-video.html"><img src="imgs/sumit-saha.webp" alt="" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="imgs/sumit-pp.jpg" alt="">
+                    <div class="vid-info">
+                        <a href="">Things I wish I knew as a Junior Web Developer - Sumit Saha....</a>
+                        <p>Learn with Sumit - LWS - Bangladesh
+                            <img class="verified-icon" src="imgs/verified-icon.png" alt=""></p>
+                        </p>
+                        <p>34k views &bull; 3 months ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href="play-video.html"><img src="imgs/lucy-eng-thumb.webp" alt="" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="imgs/lucy-pp.jpg" alt="">
+                    <div class="vid-info">
+                        <a href="">BRITISH vs AMERICAN ENGLISH - Accent & Vocabulary Comparison!</a>
+                        <p>ENGLISH WITH LUCY
+                            <img class="verified-icon" src="imgs/verified-icon.png" alt=""></p>
+                        </p>
+                        <p>1.3M views &bull; 3 year ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href="play-video.html"><img src="imgs/titanic-thumb.webp" alt="" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="imgs/news-pp.jpg" alt="">
+                    <div class="vid-info">
+                        <a href="">টাইটানের পরিণতির কথা আগেই জানতেন টাইটানিকের পরিচালক</a>
+                        <p>Desh TV News</p>
+                        <p>235k views &bull; 8 hours ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href="play-video.html"><img src="imgs/swiss-thumb.webp" alt="" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="imgs/swiss-pp.jpg" alt="">
+                    <div class="vid-info">
+                        <a href="">সুইজারল্যান্ডের সবচেয়ে ধনী গ্রাম | Luxury Swiss Village | Gstaad</a>
+                        <p>Shehwar & Maria</p>
+                        <p>69k views &bull; 3 weeks ago</p>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+        
+    </div>
+</body>
+</html>
